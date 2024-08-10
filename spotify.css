@@ -1,0 +1,129 @@
+body{
+    background-color:rgb(192, 152, 99);
+}
+*{
+    padding: 0;
+    margin: 0;
+    }
+nav ul{
+    display:flex;
+    align-items: center;
+    list-style-type: none;
+    height:80px;
+    color: white;
+    background-color: black;
+}
+.songItemcontainer{
+    margin-top: 34px;
+}
+.container{
+ min-height:75vh;
+ background-image: url('ep.png');
+ background-color: black;
+ color:white;
+ display:flex;
+ width:70%;
+ margin: 23px auto;
+ border-radius: 12px;
+ padding:34px;
+ box-shadow: 20px 20px 60px #000,
+ inset -20px -20px 60px rgba(216, 233, 231, 0.356);
+ 
+}
+
+nav ul li{
+    padding:0 12px;
+    cursor: pointer;
+}
+nav ul li:hover{
+color: blue;
+}
+.brand img{
+    width:44px;
+    padding: 0 8px;
+    border-radius: 100%;
+
+}
+.brand{
+    display:flex;
+    align-items: center;
+    font-weight:bolder;
+    font-size:1.3rem;
+}
+.bot{
+    position: sticky;
+    height:130px;
+    background-color: black;
+    color:white;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.icons{
+    margin-top: 14px;
+}
+
+.icons i {
+    cursor:pointer;
+}
+
+#myProgressBar{
+        width:80vw;
+        cursor: pointer;
+    }
+    
+.songItem{
+
+    height:50px;
+    display: flex;
+    background-color: white;
+    color:black;
+    width: 80%;
+    margin: 12px 0;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 34px;
+    box-shadow: 20px 20px 60px #000,
+ inset -20px -20px 60px rgba(216, 233, 231, 0.356);
+   
+}
+   .songItem img{
+     width: 54px;
+     margin: 0 22px;
+     border-radius: 44px;
+    }
+
+    .timestamp{
+        margin: 0 22px;
+    }
+    .timestamp i{
+        cursor:pointer;
+    }
+
+    .songinfo{
+        position: absolute;
+        left: 9vw;
+    }
+
+    
+    .songinfo img{
+       opacity: 0;
+       transition: opacity 0.4s ease-in;
+       
+       
+    }
+
+
+
+
+    /* box-shadow: 10px 10px 50px #000,
+    inset -10px -10px 50px rgba(216, 233, 231, 0.356); */
+
+
+
+/* 
+    box-shadow: 20px 20px 60px #000,
+ inset -20px -20px 60px rgba(216, 233, 231, 0.356); */
